@@ -37,3 +37,11 @@ img {
   text-align: center;
   margin-bottom: 15px;
 }
+@media screen and (max-width: 775px) {
+  .article {
+    width: 100%;
+  }
+  .articles {
+    row-gap: 20px;
+  }
+}
