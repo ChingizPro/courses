@@ -12,3 +12,19 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+.container {
+  max-width: 1300px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.article {
+  width: 49%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
